@@ -1,3 +1,4 @@
+// Extracts the value of a cookie by cookie name
 export function getCookie(request, name) {
     let result = null
     let cookieString = request.headers.get('Cookie')
