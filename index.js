@@ -36,7 +36,7 @@ import { getCookie } from './src/utils/cookie'
     let response = await fetch(url)
 
     // Rewrite HTML
-    response = await htmlRewrite(response).text()
+    response = await htmlRewrite(response, url.slice(-1)-1).text()
 
     return new Response(response, {
       headers: {
