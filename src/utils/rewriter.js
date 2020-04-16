@@ -1,3 +1,4 @@
+// Rewrite HTML of response body using HTML Rewriter
 class ElementHandler {
     constructor(content, attribute = '') {
         this.content = content;
