@@ -4,7 +4,9 @@ Application that will simulate A/B testing and send users to one of two webpages
 ### Live Host
 https://cloudflare-worker-app.amitmaharana.workers.dev/
 
-![alt text1](https://raw.githubusercontent.com/amitmaharana/amitmaharana.github.io/master/images/sample_cloudflare_workerA.png)![alt text2](https://raw.githubusercontent.com/amitmaharana/amitmaharana.github.io/master/images/sample_cloudflare_workerB.png)
+Type A                     |  Type B
+:-------------------------:|:-------------------------:
+![alt text1](https://raw.githubusercontent.com/amitmaharana/amitmaharana.github.io/master/images/sample_cloudflare_workerA.png)  |  ![alt text2](https://raw.githubusercontent.com/amitmaharana/amitmaharana.github.io/master/images/sample_cloudflare_workerB.png)
 
 ### Technology Stack
 * JavaScript
